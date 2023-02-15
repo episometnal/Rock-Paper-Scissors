@@ -127,11 +127,11 @@ computer_score = Label(frame2, text=score_computer, font=30, fg="white", bg="bla
 player_score.pack(side=LEFT,padx=130)
 computer_score.pack(padx=130,pady=5)
 
-path_user = "user.png"
-path_robot = "robot.png"
-path_rock = "rock.png"
-path_paper = "paper.png"
-path_scissors = "scissors.png"
+path_user = r"user.png"
+path_robot = r"robot.png"
+path_rock = r"rock.png"
+path_paper = r"paper.png"
+path_scissors = r"scissors.png"
 
 image_rock = ImageTk.PhotoImage(Image.open(path_rock).resize((100, 100), Image.LANCZOS))
 image_paper = ImageTk.PhotoImage(Image.open(path_paper).resize((100, 100), Image.LANCZOS))
